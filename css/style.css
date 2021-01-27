@@ -1,0 +1,144 @@
+/*Designed and Customly Developed by Tom Croft - https://tom-croft.com*/
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+
+    background-color: #1d196e;
+    background-image: url(../bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.vh-100 {
+	height: 100vh;
+}
+
+.display-2 {
+	text-shadow: 0 0 20px #0002;
+}
+
+.btn {
+	padding: 14px 32px;
+	border-radius: 4px;
+	box-shadow: 0 0 10px #0004;
+}
+
+.lead {
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px #0005;
+}
+
+.fl {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.delay-200 {
+	animation-delay: 200ms;
+}
+
+.delay-500 {
+	animation-delay: 500ms;
+}
+
+.delay-700 {
+	animation-delay: 700ms;
+}
+
+.text-muted {
+    color: #232323!important;
+}
+
+.btn-center {
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+	border-radius: 50px;
+    padding: 18px 48px;
+}
+
+.header {
+    padding: 100px;
+}
+
+.card {
+    height: 100%;
+    padding-bottom: 80px;
+    color: #000;
+    box-shadow: 0 0 20px #0002;
+	border: 0;
+}
+
+.card-title {
+	font-weight: 600 !important;
+	font-size: 24px;
+}
+
+.btn-dark {
+	background-color: #000;
+	border: 0;
+	color: #fff;
+	font-weight: 700;
+}
+
+.col-xs-12 {
+    margin-top: 32px;
+}
+
+.bottom {
+    position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 16px;
+
+}
+
+@media(max-width: 550px) {
+    .header {
+        padding: 100px 16px;
+    }
+}
+
+@media(max-width: 400px) {
+    .header {
+        padding: 100px 0;
+    }
+}
+
+@media(min-width: 1440px) {
+	.display-2 {
+		font-size: 8rem;
+	}
+
+	.header h5 {
+		font-size: 2rem;
+	}
+}
+
+#particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+	pointer-events: none;
+}
+
+.header h1, .header h5 {
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); */
+}
+
+.card img {
+	max-width: 100% !important;
+}

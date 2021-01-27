@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpfastcache/phpfastcache": "^7.1",
+        "shoppy/shoppy-php": "^1.1",
+        "selly/selly-php": "^1.0",
+        "gilbitron/php-simplecache": "^1.4",
+        "guzzlehttp/guzzle": "6.3.0",
+        "tunaabutbul/cloudflare-middleware": "^1.2",
+        "erusev/parsedown": "^1.7",
+        "maiu/sellix": "^0.0.1"
+    }
+}

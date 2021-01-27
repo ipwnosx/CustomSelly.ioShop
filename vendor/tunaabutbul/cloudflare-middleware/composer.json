@@ -1,0 +1,27 @@
+{
+  "name":"tunaabutbul/cloudflare-middleware",
+  "description":"Cloudflare Middleware For Guzzle",
+  "keywords":[
+    "Cloudflare",
+    "Middleware",
+    "Guzzle"
+  ],
+  "type":"library",
+  "require":{
+    "php": ">=5.6",
+    "guzzlehttp/guzzle":"6.3.*"
+  },
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Tuna Abutbul",
+      "email":"tuna.abutbul+github@gmail.com"
+    }
+  ],
+  "minimum-stability":"dev",
+  "autoload":{
+    "psr-4":{
+      "Tuna\\":"src/"
+    }
+  }
+}
